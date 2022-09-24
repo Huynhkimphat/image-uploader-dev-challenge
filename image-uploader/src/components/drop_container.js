@@ -57,7 +57,7 @@ function DropContainer() {
         
         var formData = new FormData();
         formData.append("file", file);
-        request.open("POST", "http://localhost:8080/upload-image", true);
+        request.open("POST", "https://quiet-fjord-01598.herokuapp.com/upload-image", true);
         // request.setRequestHeader("Content-Type", "application/json");
         request.send(formData);
     }
